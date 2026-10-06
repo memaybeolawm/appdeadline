@@ -1,0 +1,49 @@
+name: deadline_alert
+description: A new Flutter project for deadline alerts.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  supabase_flutter: ^2.3.2
+  go_router: ^13.1.0
+  flutter_local_notifications: ^17.0.0
+  home_widget: ^0.4.0
+  google_mlkit_text_recognition: ^0.12.0
+  image_picker: ^1.0.7
+  excel: ^3.0.0
+  csv: ^5.1.1
+  file_picker: ^8.0.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.6
+  uuid: ^4.3.3
+  google_fonts: ^6.1.0
+  timezone: ^0.9.4
+  path_provider: ^2.1.2
+  flutter_colorpicker: ^1.1.0
+  percent_indicator: ^4.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  freezed: ^2.4.7
+  json_serializable: ^8.0.0
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
